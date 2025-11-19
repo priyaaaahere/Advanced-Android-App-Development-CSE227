@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="unit5.WifiBtAirplaneMain">
+    <ToggleButton
+        android:id="@+id/wifiToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Turn OFF Wifi"
+        android:textOff="Turn ON Wifi"
+        />
+    <ToggleButton
+        android:id="@+id/btToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Turn OFF bt"
+        android:textOff="Turn ON bt"
+        />
+    <ToggleButton
+        android:id="@+id/airplaneToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Turn ON airplane mode"
+        android:textOff="Turn OFF airplane mode"
+        />
+</LinearLayout>

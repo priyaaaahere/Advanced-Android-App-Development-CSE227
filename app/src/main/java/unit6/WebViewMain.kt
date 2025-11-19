@@ -31,8 +31,8 @@ class WebViewMain : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_web_view_main)
 
-        val webView=findViewById<WebView>(R.id.webView)
-        val progressBar=findViewById<ProgressBar>(R.id.progressBar)
+        webView=findViewById(R.id.webView)
+        progressBar=findViewById(R.id.progressBar)
 
         val webSettings=webView.settings
         webSettings.javaScriptEnabled=true
