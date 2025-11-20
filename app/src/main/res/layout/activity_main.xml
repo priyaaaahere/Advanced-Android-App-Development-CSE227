@@ -1,19 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="User ID"
+        android:layout_marginTop="50sp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/etUserName"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:hint="User Email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+    <Button
+        android:id="@+id/btnCreateUser"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Create User"
+        />
+    <Button
+        android:id="@+id/btnReadUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read User"
+        />
+    <Button
+        android:id="@+id/btnUpdateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        />
+    <Button
+        android:id="@+id/btnDeleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
