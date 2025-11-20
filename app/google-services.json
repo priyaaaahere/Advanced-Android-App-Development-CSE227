@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "133894795188",
+    "project_id": "cse227etp-fa9bc",
+    "storage_bucket": "cse227etp-fa9bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133894795188:android:ad7672c165656d2bfd8ce1",
+        "android_client_info": {
+          "package_name": "com.example.cse227etp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqeGBJIJS3j_BGwAPx2fdvOtzDugaERyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

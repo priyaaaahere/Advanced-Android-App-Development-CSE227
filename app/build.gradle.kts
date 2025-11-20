@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    //unit1
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -46,4 +48,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //unit 1
+    implementation(libs.firebase.auth)
+    implementation(platform(libs.firebase.bom))
+
 }

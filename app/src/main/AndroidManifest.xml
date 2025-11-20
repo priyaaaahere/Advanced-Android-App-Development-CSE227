@@ -21,6 +21,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE227ETP">
         <activity
+            android:name="unit1.SignUpMain"
+            android:exported="true" />
+        <activity
+            android:name="unit1.LoginMain"
+            android:exported="true" />
+        <activity
             android:name="unit2.CanvasMain"
             android:exported="true" />
         <activity
