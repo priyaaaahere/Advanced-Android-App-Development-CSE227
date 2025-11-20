@@ -22,6 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE227ETP">
         <activity
+            android:name="unit2.transition.TransitionMain"
+            android:exported="true" />
+        <activity
             android:name="unit2.animations.AnimationMain"
             android:exported="true" />
         <activity
