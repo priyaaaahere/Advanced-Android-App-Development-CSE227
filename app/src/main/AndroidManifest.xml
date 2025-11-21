@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" /> <!-- for wifi -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- for scanning wifi networks -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- NotificationFirebase -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
@@ -21,6 +22,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE227ETP">
+        <activity
+            android:name="unit6.WebviewUsingHTML"
+            android:exported="true" />
         <activity
             android:name="unit2.transition.TransitionMain"
             android:exported="true" />
